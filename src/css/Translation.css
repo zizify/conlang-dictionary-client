@@ -1,0 +1,24 @@
+.translation-container {
+    margin: 0 24px;
+}
+
+.translation-entries {
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+
+.translation-example {
+    margin: 0 12px;
+}
+
+.translation-example-line {
+    margin: 0 0 3px;
+}
+
+.translation-example-text {
+    font-weight: 600;
+}
+
+.translation-example-translation {
+    font-style: italic;
+}

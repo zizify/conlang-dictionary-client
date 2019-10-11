@@ -2,5 +2,27 @@
     background-color: white;
     border-radius: 4px;
     box-shadow: 0 3px 4px rgba(0,0,0,0.16), 0 3px 4px rgba(0,0,0,0.23);
-    padding: 12px;
+    padding: 18px;
+}
+
+.word-summary {
+    display: flex;
+    align-items: center;
+}
+
+.word-headword {
+    font-size: 32px;
+    font-weight: 600;
+    color: #1B4079;
+    margin-right: 3%;
+}
+
+.word-pronunciation {
+    font-size: 20px;
+    margin-right: 3%;
+}
+
+.word-pos {
+    letter-spacing: -1px;
+    font-variant: small-caps;
 }

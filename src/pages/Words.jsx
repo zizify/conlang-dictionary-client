@@ -7,12 +7,40 @@ import '../css/Words.css';
 
 const examples = [
     {
-        headword: 'áḡauḏi',
-        pos: 'noun',
-        wordClass: 'inanimate',
-        pronunciation: '/ˈa.ɣau.ði/',
-        gloss: 'leg',
-        translation: 'leg',
+        headword: 'áḡaḏi',
+        classes: ['noun', 'inanimate', 'dual'],
+        pronunciation: '/ˈa.ɣa.ði/',
+        forms: [
+            {
+                type: 'obl.',
+                fullType: 'oblique',
+                form: 'áḡaḏ-',
+            },
+            {
+                type: 'pl.',
+                fullType: 'plural',
+                form: 'áḡaḏik',
+            },
+            {
+                type: 'sgv.',
+                fullType: 'singulative',
+                form: 'áḡauḏi',
+            },
+        ],
+        translations: [
+            {
+                entries: ['two thighs, both haunches', 'lap, the upper portion of both legs'],
+                gloss: 'leg',
+                examples: [
+                    {
+                        text: 'an híma ta n\' pocúrsek áḡauḏi',
+                        translation: 'if a woman has exposed a thigh before thee',
+                        phonetic: '[ɐn ˈhi.mɐ tɐ.n pʰɔˈt͡suɽ.sɛk ˈa.ɣɐu̯.ði]',
+                        textGloss: '',
+                    }
+                ]
+            },
+        ],
     }
 ];
 
